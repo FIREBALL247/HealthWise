@@ -1,1 +1,3 @@
 # HealthWise
+Experience the future of healthcare with our innovative and patient-centric website, designed to provide a seamless and compassionate online experience.  Built with a focus on user experience and responsiveness, our front-end uses HTML, CSS, and JavaScript to create a clean and intuitive interface for HealthWise, a website providing reliable health information and expert advice. With a simple and effective design, our website is optimized for ease of use and accessibility.
+Our website is designed to empower patients, support healthcare professionals, and foster a sense of community. Join us in redefining the healthcare experience, where technology meets empathy and compassion. Discover a website that truly cares for you.
