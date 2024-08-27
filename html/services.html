@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Wise - Services</title>
+    <link rel="stylesheet" href="/css/services.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="container"> -->
+            <div class="logo">
+                <span style="color: #2e4493">Health</span> 
+               <span style="color: #11a2d7;">Wise</span>
+           </div>
+            <button class="nav-button" close="false" >
+                <span>Menu</span>
+            </button>
+            <nav>
+                <ul class="nav-links navigation" active="false" >
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#about">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li><a href="contact.html" class="signup-button">Sign Up</a></li> -->
+                </ul>
+            </nav>
+        <!-- </div> -->
+    </header>
+
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <div class="container">
+                
+                <div class="service-box" >
+                    <h2>Primary Care</h2>
+                    <p>Routine check-up, preventive care, and treatment for common illnesses.</p>
+                  
+                </div>
+                <div class="service-box  one">
+                    <h2>Pediatrics</h2>
+                    <p>Specialized healthcare for children.</p>
+                    
+                </div>
+              
+                <div class="service-box one">
+                    <h2>Specialty Care</h2>
+                    <p>Expert care for specific conditions, like cardiology or oncology.</p>
+                </div>
+
+                
+            
+            
+                
+                <div class="service-box">
+                    <h2>Surgery</h2>
+                    <p>Operative procedures for various conditions, including elective and emergency surgeries.</p>
+                </div>
+                <div class="service-box ">
+                    <h2>Dental Care</h2>
+                    <p>Preventive and restorative services for oral health.</p>
+                </div>
+              
+                <div class="service-box one" >
+                    <h2>Emergency Services</h2>
+                    <p>Urgent care for life-threatening conditions like ER visits.</p>
+                </div>
+
+                
+           
+                
+               
+
+                
+            
+
+            
+               
+
+                
+            </div>
+            <!-- <a href="contact.html" class="btn-primary">Book Appointment</a> -->
+        </section>
+
+
+        <section class="slideshow">
+            <h1 style="color:#2e4493; font-weight: bold;">What They About Say Us</h1>
+            <div class="testimonial-section" >
+            <div class="testimonials">
+                <h3>Emily R</h3>
+                <p>I was very happy with the care i got from Healthwise. The doctors and nurses were kind and explained everything to me. I felt safe and cared for</p>
+
+            </div>
+
+            <div class="testimonials">
+                <h3>Mark K</h3>
+                <p>I was worried about trying a new doctor, but Healthwise was great! The staff was friendly, the wait was short, and the care was excellent. I  recommend them to everyone</p>
+            </div>
+
+            <div class="testimonials">
+                <h3>Sarah G</h3>
+                <p>I had a lot of questions, and Healthwise answered all of them. They took the time to listen and made sure i understood my treatment. I feel confident in their care.</p>
+            </div>
+
+            <div class="testimonials">
+                <h3>Chris H</h3>
+                <p>I did not know what to except, but Healthwise exceeded my expectations. They were professionals, friendly, and helped me feel better.</p>
+            </div>
+            <div class="testimonials">
+                <h3>Tom H</h3>
+                <p>I was nervous about my procedure, but Healthwise made me feel calm and prepared. Their care and expertise put my mind at ease.</p>
+            </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <!-- <h1>Contact Us</h1> -->
+            <h2>Book Appointment</h2>
+            <form action="#" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="username" required>
+                    <!-- <span id="nameError" class="nameError" style="color: red"></span>
+                    <p id="namemessage"></p> -->
+                </div>
+               
+
+                <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- <span id="emailError" class="error"></span> -->
+                </div>
+
+
+                <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" class="phone-number" required>
+                <!-- <span id="numberError" class="phoneError" style="color:red"></span> -->
+                </div>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time"><br><br>
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                  <option value="primary-care">Primary Care</option>
+                  <option value="cardiology">Cardiology</option>
+                  <option value="dermatology">Dermatology</option>
+                  <option value="orthopedics">Orthopedics</option>
+                  <option value="other">Other</option>
+                </select><br><br>
+                <label for="service">Service:</label>
+                <select id="service" name="service">
+                  <option value="routine-checkup">Routine Checkup</option>
+                  <option value="follow-up-appointment">Follow-up Appointment</option>
+                  <option value="new-patient-consultation">New Patient Consultation</option>
+                  <option value="surgery">Surgery</option>
+                  <option value="lab-test">Lab Test</option>
+                </select><br><br>
+
+                <label for="message">Description/Reason for appointment:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <div class="form-group">
+                <button type="submit" class="contact-button">Submit</button>
+                </div>
+            </form>
+            <div id="form-result" class="hidden">
+                <p>Thank you for choosing Health Wise. Your Appointment has been booked, we will  be in touch soon to confirm your appointment.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Health Wise. All rights reserved.</p>
+            <p>123 Wellness Ave, Healthy City, HC 45678</p>
+            <div class="socials">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="/js/services.js"></script>
+</body>
+</html>
